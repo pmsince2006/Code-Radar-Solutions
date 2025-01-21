@@ -4,6 +4,6 @@ int main() {
     int a;
     scanf("%d",&a);
     printf("Hexadecimal: %X",a);
-    printf("Ocatal: %o",a);
+    printf("/nOcatal: %o",a);
     return 0;
 }
