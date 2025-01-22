@@ -1,10 +1,8 @@
 #include <stdio.h>
 int main() {
-    char1=[100];
-    char2=[100];
-    scanf("%c",&char1)
-    scanf("%c",&char2)
-    printf(char1,"and",char2);
+    char strn1[100],strn2[100];
+    scanf("%s %s",strn1,strn2)
+    printf("You entered: %s and %s",strn1,strn2);
     return 0;
 
     
