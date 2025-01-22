@@ -3,8 +3,6 @@
 int main() {
     float p,q,r,,sum,avg;
     scanf("%f ,%f ,%f",&p,&q,&r);
-    sum=(p+q+r);
-    avg = sum/3;
-    printf("Average: %.2f",&avg);
+    printf("Average: %.2f",(p+q+r)/3);
     return 0;
 }
