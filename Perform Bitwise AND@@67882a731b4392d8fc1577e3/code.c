@@ -1,8 +1,14 @@
 #include <stdio.h>
+
 int main() {
-    int n,m,x;
-    scanf("%d %d",&n,&m);
-    x = n & m;
-    printf(x);
+    int num1, num2, result;
+    scanf("%d", &num1);
+
+    scanf("%d", &num2);
+
+    result = num1 & num2;
+
+    printf(result);
+
     return 0;
 }
