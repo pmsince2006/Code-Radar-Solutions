@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main() {
-    float radius;
+    float r;
     float pi = 3.14;
     float area = pi*r*r;
-    scanf("%f",&radius);
+    scanf("%f",&r);
     printf("Area: %f",area);
     return 0;
 
