@@ -1,18 +1,22 @@
-// Your code here...
 #include <stdio.h>
 
 int main() {
-    int num;
+    int num, n;
 
     // Input an integer
 
     scanf("%d", &num);
 
-    // Clear all bits (set number to zero)
-    num = 0;
+    // Input the position of the bit to clear (0-based index)
+
+    scanf("%d", &n);
+
+    // Clear the nth bit
+    num &= ~(1 << n);
 
     // Print the result
-    printf("%d", num);
+    printf("%d", n, num);
 
     return 0;
 }
+
