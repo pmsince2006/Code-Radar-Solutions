@@ -6,7 +6,7 @@ int main() {
 
     result = num1 & num2;
 
-    printf(result);
+    printf("%d",result);
 
     return 0;
 }
