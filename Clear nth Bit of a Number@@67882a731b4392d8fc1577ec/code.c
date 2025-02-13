@@ -15,7 +15,7 @@ int main() {
     num &= ~(1 << n);
 
     // Print the result
-    printf("%d", n, num);
+    printf("%d",num);
 
     return 0;
 }
