@@ -10,7 +10,7 @@ int main() {
 
     num ^= (1 << n);
 
-    printf("%d", n, num);
+    printf("%d",num);
 
     return 0;
 }
