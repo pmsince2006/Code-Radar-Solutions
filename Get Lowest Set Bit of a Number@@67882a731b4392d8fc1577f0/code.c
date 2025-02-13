@@ -12,9 +12,9 @@ int main() {
 
     unsigned int result = lowestSetBit(num);
     if (result != 0) {
-        printf("%u", result);
-    } else {
         printf("%u", num);
+    } else {
+        printf("%u", result);
     }
 
     return 0;
