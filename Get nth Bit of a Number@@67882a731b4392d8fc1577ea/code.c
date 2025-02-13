@@ -14,7 +14,7 @@ int main() {
     bit = (num >> n) & 1;
 
     // Print the value of the nth bit
-    printf("%d", n, bit);
+    printf("%d",bit,n);
 
     return 0;
 }
