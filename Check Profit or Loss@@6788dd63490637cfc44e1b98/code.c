@@ -2,8 +2,11 @@
 int main(){
     int cp,sp;
     scanf("%d %d",&cp,&sp);
-    if(sp-cp>=0){
+    if(sp-cp>0){
         printf("Profit");
+    }
+    else if(sp-cp=0){
+        printf("No Profit No Loss");
     }
     else{
         printf("Loss");
