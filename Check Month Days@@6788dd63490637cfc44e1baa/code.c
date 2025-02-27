@@ -13,6 +13,10 @@ int main(){
 
         case 2:
         printf("28");
+
+        default:
+        printf("Invalid Month");
+        break;
     }
     return 0;
 
