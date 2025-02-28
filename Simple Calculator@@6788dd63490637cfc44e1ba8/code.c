@@ -22,7 +22,7 @@ int main() {
                 printf("%d", num1 / num2);
             break;
         default:
-            printf("Error: Invalid operator.\n");
+            printf("error");
     }
 
     return 0;
