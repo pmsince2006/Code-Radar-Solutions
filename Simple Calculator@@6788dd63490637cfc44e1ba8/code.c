@@ -20,9 +20,9 @@ int main() {
             // Check for division by zero
             if (num2 != 0)
                 printf("%d", num1 / num2);
-            break;
             else:
             printf("error");
+            break
     }
 
     return 0;
