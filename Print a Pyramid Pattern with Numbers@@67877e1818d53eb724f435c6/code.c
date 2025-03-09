@@ -10,7 +10,7 @@ int main(){
         }
         nsp = nsp - 1;
         for(j=1;j<=nn;j++){
-            printf("%d",j);
+            printf("%d ",j);
         }
         nn = nn + 2;
     }printf("\n");
