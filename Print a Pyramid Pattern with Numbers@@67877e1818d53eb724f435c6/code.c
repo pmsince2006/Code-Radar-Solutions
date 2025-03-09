@@ -13,6 +13,7 @@ int main(){
             printf("%d ",j);
         }
         nn = nn + 2;
-    } printf("\n");
+        printf("\n");
+    }
     return 0;
 }
