@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int i,j,k;
+    int i,j,k,n;
     scanf("%d",&n);
     int nsp = n-1;
     int nn = 1;
