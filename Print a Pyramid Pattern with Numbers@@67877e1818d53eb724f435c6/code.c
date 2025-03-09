@@ -12,7 +12,7 @@ int main(){
         for(j=1;j<=nn;j++){
             printf("%d ",j);
         }
-        nn = nn + 2;
+        nn = nn + 1;
         printf("\n");
     }
     return 0;
