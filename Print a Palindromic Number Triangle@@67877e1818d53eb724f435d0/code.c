@@ -2,9 +2,9 @@
 int main(){
     int n,i,j,k;
     scanf("%d",&n);
+    int nsp = n-1;
     for(i=1;i<=n;i++){
         int a = i-1;
-        int nsp = n-1;
         for(int q=1;q<=nsp;q++){
             printf(" ");
             nsp--;
