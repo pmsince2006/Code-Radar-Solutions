@@ -4,13 +4,13 @@ int main(){
     scanf("%d",&n);
     for(i=1;i<=n;i++){
         int a = i-1;
-        for(j=1;j<=i;j++){
-            printf("%d",j);
-        }
         int nsp = n-1;
         for(int q=1;q<=nsp;q++){
             printf(" ");
             nsp--;
+        }
+        for(j=1;j<=i;j++){
+            printf("%d",j);
         }
         for(k=1;k<=a;k++){
             printf("%d",k);
