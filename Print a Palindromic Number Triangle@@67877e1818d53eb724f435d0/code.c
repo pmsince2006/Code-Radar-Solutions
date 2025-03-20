@@ -7,8 +7,8 @@ int main(){
         int a = i-1;
         for(int q=1;q<=nsp;q++){
             printf(" ");
-            nsp--;
         }
+        nsp--;
         for(j=1;j<=i;j++){
             printf("%d",j);
         }
