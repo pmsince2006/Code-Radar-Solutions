@@ -10,9 +10,11 @@ int main(){
         int nsp = n-1;
         for(int q=1;q<=nsp;q++){
             printf(" ");
+            nsp--;
         }
         for(k=1;k<=a;k++){
             printf("%d",k);
+            a--;
         }
         printf("\n");
     }
