@@ -3,12 +3,15 @@ int main(){
     int n,i,j,a;
     char ch;
     scanf("%d",&n);
-    for(i=n;i>=1;i--){
+    for(i=1;i<=n;i++){
+        a=98;
         for(j=1;j<=i;j++){
+            int d = a - 1;
+            char ch = (char)d;
             printf("%c ",ch);
-            ch ++;
+            a--;
         }
         printf("\n");
     }
-    return 0;
-}
+        return 0;
+    }
